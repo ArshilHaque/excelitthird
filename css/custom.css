@@ -1,0 +1,296 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {width: auto!important;overflow-x: hidden!important;} 
+
+.bg-img{
+    height: 30em;
+    background-image: url(../img/headerbanner.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+.global{
+  padding: 50px 0px;
+  /* margin: 0 auto; */
+ }
+
+
+.global img{
+  margin: 0 auto;
+  padding-bottom: 20px;
+ }
+
+
+.image img{
+  margin: 0 auto
+}
+
+.logo{
+    display: block;
+}
+
+.logo img{
+    margin: 85px auto;
+    display: inline-block;
+}
+
+.heading{}
+.heading p {
+    font-size: 21px;
+    margin-top: 70px;
+    color: #313131;
+}
+
+.heading span {
+    width: 100px;
+    height: 5px;
+    background: #0fc763;
+    display: inline-block;
+}
+
+.imagepad {
+    text-align: center;
+}
+
+.list {
+    margin-top: 25px;
+}
+
+.imagepad img{
+  margin-top: 10px;
+
+}
+
+.black-bg{
+  background-color: #262626;
+  padding-top: 12px;
+    padding-bottom: 90px;
+        margin-top: 60px;
+}
+
+.logo2{
+    display: block;
+}
+
+.logo2 img {
+    margin: 0 auto;
+    display: block;
+    width: 46%;
+    height: 100%;
+        padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+.line span {
+    width: 100px;
+    height: 5px;
+    background: #0fc763;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.textlist ul li p{
+  display: inline-block;
+}
+
+.Listtext li {
+    list-style: none;
+}
+
+
+.footer{
+      background-color: #212121;
+      padding: 70px 0px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    bottom: 100px;
+    right: 45px;
+    box-shadow: 0px 6px 2px 0px #00000085;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  /* transition: .5s ease-out; */
+}
+
+.buttontext a{
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.buttontext a:hover{
+  color: #4CAF50;
+  transition: .5s ease-out;
+}
+
+.copytext p{
+  color: white;
+  left: 40%;
+  text-align: center;
+  top: 50px;
+  font-size: 12px;
+  position: relative;
+}
+
+
+
+h3 {
+    color: #0fc763;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+/*.Listtext .heightline {
+    list-style: none;
+    line-height: 5px;
+}*/
+
+.middlelogo{
+  text-align: right;
+}
+
+
+.heightline{
+  line-height: 65%;
+}
+
+p .indent{
+    margin-left: 10px;
+}
+
+
+.textlist p{
+    text-indent: -10px;
+  }
+
+
+  --------------------------------------------------------------
+
+.pricing-table * {
+  text-align: center;
+  text-transform: uppercase;
+}
+.panel {
+  background-color: #fff;
+  /* border-radius: 10px; */
+  padding: 0px 95px;
+  padding-bottom: 90px;
+  position: relative;
+  width: 50%;
+  z-index: 10;
+  /* padding: 25px 40px; */
+  outline: 5px solid white;
+  border: 7px solid #03c15a;
+}
+
+.pricing-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+
+.pricing-features {
+  color: #484848;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-bottom: 1px solid #ececec;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.pricing-price {
+  color: #484848;
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #8effc1;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 15px 0;
+  padding: 15px 55px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #0fc763;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #0de06d;
+  text-decoration: none;
+}
+
+sub {
+  font-size: 25px;
+}
+
+.price p{
+    color: #4e4e4e;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.price h4{
+    font-weight: 600;
+    color: #484848;
+    padding-top: 15px;
+}
+
+.pricing-bg{
+  background-color: #ececec;
+  padding: 20px 0px;
+}
+
+.price .pricing-price sub{
+
+}
+
+.terms a{
+  color: grey;
+  text-decoration: none;
+}
+
+.privacy a{
+  text-decoration: none;
+  color: grey;
+}
+
